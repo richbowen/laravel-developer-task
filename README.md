@@ -17,12 +17,12 @@ There's some basic documentation for the api at the root API endpoint, /api.
 
 **Examples**
 
-- Filter where state is unconfirmed, where the name has 'Fan' in it:
+- Filter where `state` is unconfirmed and where `name` has 'Fan' in it:
 ```
 /api/subscribers?filter[state]=unconfirmed&filter[name]=Fan
 ```
 
-- Sort by the state where the email address is gmail:
+- Sort by the `state` where the `email` address has 'gmail' in it:
 ```
 /api/subscribers?filter[email]=gmail&sort=-state
 ```
