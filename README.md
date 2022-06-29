@@ -17,7 +17,7 @@ There's some basic documentation for the api at the root API endpoint, /api.
 
 **Examples**
 
-- Filter for unconfirmed states, where the name has 'Fan' in it:
+- Filter where state is unconfirmed, where the name has 'Fan' in it:
 ```
 /api/subscribers?filter[state]=unconfirmed&filter[name]=Fan
 ```
