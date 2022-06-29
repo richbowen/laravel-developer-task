@@ -13,7 +13,7 @@ That's it.
 
 ## API Documentation
 
-There's some basic documentation for the api at the root API endpoint, `/api`.
+There's some basic documentation for the API at the root API endpoint, `/api`.
 
 **Examples**
 
