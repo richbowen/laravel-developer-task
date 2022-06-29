@@ -28,7 +28,8 @@ class StoreSubscriberRequest extends FormRequest
         return [
             'name' => 'required',
             'email' => 'required|email:rfc,dns|unique:subscribers',
-            'state' => [new Enum(SubscriberState::class)]
+            'state' => [new Enum(SubscriberState::class)],
+            'field_ids' => 'sometimes|array'
         ];
     }
 }
