@@ -2,8 +2,8 @@
 
 The setup for the app is quite simple:
 - `git clone https://github.com/richbowen/laravel-developer-task.git`
-- `composer install`
 - `cd laravel-developer-task`
+- `composer install`
 - `cp .env.example .env`; create your database and `php artisan migrate`
 - `php artisan key:generate`
 - `yarn` then`yarn run prod`
