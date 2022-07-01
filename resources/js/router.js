@@ -23,10 +23,5 @@ export default new Router({
             component: () => import("./Views/Fields"),
             props: true
         },
-        {
-            path: "/settings",
-            name: "settings",
-            component: () => import("./Views/Settings"),
-        }
     ]
 });

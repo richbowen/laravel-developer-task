@@ -34,13 +34,6 @@
                     </v-list-item-action>
                     <v-list-item-title>Fields</v-list-item-title>
                 </v-list-item>
-
-                <v-list-item to="/settings">
-                    <v-list-item-action>
-                        <v-icon>mdi-cog</v-icon>
-                    </v-list-item-action>
-                    <v-list-item-title>Settings</v-list-item-title>
-                </v-list-item>
             </v-list>
         </template>
         <template v-slot:append v-if="githubUser">
