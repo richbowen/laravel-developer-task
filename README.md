@@ -8,6 +8,7 @@ The setup for the app is quite simple:
 - `php artisan key:generate`
 - `yarn` then`yarn run prod`
 - Serve the application via `php artisan serve` or if you have valet installed, https://laravel-developer-task.test
+- Seed the database. Everything `php artisan db:seed`, or individually, `php artisan db:seed --class={Field,Subscriber}Seeder`
 
 That's it.
 
